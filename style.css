@@ -1,0 +1,376 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+.nav-bar {
+ display: flex;
+ height: 5%;
+ border-bottom: 3px solid #FAFAFB;
+}
+.navbar-left {
+    flex-basis: 50%;
+    background: #ffffff;
+}
+.navbar-inner {
+    display: flex;
+    align-items: center;
+    padding: 10px 50px 10px 120px;
+}
+.navbar-inner ul{
+    z-index: 2;
+    margin-left: 120px;
+}
+.navbar-inner ul li {
+margin: 0 10px;
+display: inline-block;
+margin-right: 19px;
+}
+.navbar-inner ul li a {
+    text-decoration: none;
+    color: black;
+    }
+    .navbar-inner ul li a span{
+        padding-right: 10px;
+    }
+    .navbar-right{
+        flex-basis: 50%;
+        background: #ffffff;
+    }
+    .navbar-right ul{
+        float: right;
+        padding: 10px 50px 10px 120px;
+        margin-right: 90px;
+    }
+    .navbar-right ul li{
+        display: inline-block;
+        list-style: none;
+        margin-right: 37px;
+    }
+    .navbar-right ul li a{
+        text-decoration: none;
+        color: #262626;
+    }
+    .navbar-right ul li a span {
+        padding-left: 10px;
+    }
+    .navbar-right ul li a img{
+        padding-bottom: 5px;
+    }
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.nav-bar-9{
+    width: 100%;
+    background: #fff;            
+    height: 75px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #1a252f;
+}
+.nav-bar-9 ul{
+    height: 100%;
+    width: 980px;
+    margin: 0 auto;           
+    font-weight: bold;           
+    position: relative;
+}
+.nav-bar-9 ul li{
+    width: 120px;
+    float: left;
+    text-align: start;
+    padding: 15px 0;
+    margin-right: 40px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.nav-bar-9 ul li:last-child{
+    margin-right: 0;
+}
+.nav-bar-9 ul li a:hover{
+    color: #33A0FF; 
+    transition: 0.5s;
+}
+.nav-bar-9 ul li a{
+    color: black;
+    text-decoration: none;    
+}
+.nav-bar-9 ul li:hover .mega-menu{
+    color: black;
+    visibility: visible;
+    opacity: 1;
+}
+.nav-bar-9 ul li .mega-menu p:hover{
+    color: #18bc9c;
+}
+.nav-bar-9 ul li a.active{
+    color: #33A0FF;
+}
+.mega-menu{
+    z-index: 1;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 750px;
+    height: 250px;
+    background: #fff;
+    transition: all 0.4s ease;
+    padding: 40px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+}
+.inner-mega-menu{
+    width: 24%;
+    float: left;
+    margin-right: 0%;    
+}
+.inner-mega-menu:last-child{
+    margin-right: 0%;
+}
+.inner-mega-menu p{
+    padding: 2px 0;
+    transition: all 0.4s ease;
+    font-size: small;
+    margin-right: 15px;
+    color: #262626;
+}
+.inner-mega-menu h5{
+    margin: -20px 10px 10px 10px;
+    color: #C1C8CE;
+    font-weight: bold;
+}
+.breadcrumb-item{
+    font-weight: bold;
+}
+.breadcrumb-item a:hover{
+    text-decoration: none;
+}
+.sidebar {
+    margin-top: 43px;
+    margin-left: 180px;
+    padding: 0;
+    width: 200px;
+    background-color: #F6F7F8;
+    position: absolute;
+    height: 350px;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    margin-top: -15px;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    color: #33A0FF;
+    text-decoration: none;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    color: rgb(51, 50, 50);
+    text-decoration: none;
+    color: #33A0FF;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+.w3-container{       
+    width: 750px;
+    height: 320px;
+    background-color: #2E90E5;
+    border-radius: 5px;
+}
+.w3-container .container-1 article{
+    margin-left: 35px;
+    margin-top: 60px;
+    color: #ffffff;
+    width: 400px;     
+}
+.w3-container .container-1 img{
+    z-index: -1;
+    height: 320px;
+    margin-left: 340px;
+    margin-top: -198px;
+}
+.w3-container .container-1 article p a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid rgb(180, 179, 179);
+    color: rgb(180, 179, 179);
+}
+.w3-container .container-1 article p a{
+    border-bottom: 3px solid #fff;
+    color: #fff;
+}
+.box{
+    margin-top: 60px;
+    margin-left: 180px;
+    padding: 0;
+    width: 200px;
+    background-color: #F6F7F8;
+    position: absolute;
+    height: 164px;
+    overflow: auto;
+}
+.box p {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    margin-top: -8px;
+    font-size: 13px;
+}
+.slidecontainer {
+    width: 70%;
+  }
+  .slidecontainer input[type=range]{
+    margin-left: 30px;
+  }
+  .box1{
+      background-color: #F6F7F8;
+      height: 105px;
+      width: 200px;
+      padding: 0;
+      margin-top: 250px;
+      margin-left: 180px;
+      position: absolute;
+      overflow: auto;
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 13px;
+  }
+  .box2{
+    background-color: #F6F7F8;
+    height: 235px;
+    width: 200px;
+    padding: 0;
+    margin-top: 250px;
+    margin-left: 180px;
+    position: absolute;
+    overflow: auto;
+  }
+  .box2 a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    margin-top: -15px;
+  }
+  .box2 a.active {
+    color: #33A0FF;
+    text-decoration: none;
+  }
+  
+  /* Links on mouse-over */
+  .box2 a:hover:not(.active) {
+    color: rgb(51, 50, 50);
+    text-decoration: none;
+    color: #33A0FF;
+  }
+  .box3{
+    background-color: #F6F7F8;
+    height: 50px;
+    width: 200px;
+    padding: 0;
+    margin-top: 505px;
+    margin-left: 180px;
+    position: absolute;
+    overflow: auto;
+  }
+  .box3 a{
+      display: block;
+      text-decoration: none;
+      color: #262626;
+      padding: 12px;
+  }
+  .box3 a:hover{
+      text-decoration: none;
+      color: #c5bfbf;
+  }
+  .main{
+    margin-top: 26px;
+    margin-left: 490px;
+}
+.main1{
+    margin-top: 26px;
+    margin-left: 490px;
+}
+.main2{
+    margin-top: 26px;
+    margin-left: 490px;
+}
+.main3{
+    margin-top: 26px;
+    margin-left: 490px;
+}
+.cards {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 20%;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: 3px solid #F6F7F8;
+}
+.cards .title h6{
+    text-align: center;
+}
+.image img{
+    width: 80%;
+    margin: 10px 12px 30px 17px;        
+}
+.des .number del{
+    color: #C1C8CE;
+}
+.des .number p{
+    color: #FF4858;
+}
+.des img {
+    margin-left: 55px;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.navbar{
+    width: 55%;
+    margin-left: 410px;
+    margin-top: 25px;
+}
+.page-item .page-link {
+    border: none;
+    color: black;
+    background-color: #FAFAFB;
+}
