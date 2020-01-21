@@ -175,6 +175,7 @@ margin-right: 19px;
   display: inline-block;
   margin-left: 15px;
 }
+
 .down {
     background: none;
     margin-left: 60px;
@@ -184,7 +185,7 @@ margin-right: 19px;
     padding: 10px;
 }
 .sidebar{
-    margin-top: -226px;
+    margin-top: -286px;
     margin-left: 890px;
 }
 .sidebar .des{
@@ -209,14 +210,14 @@ margin-right: 19px;
     margin-top: 0px;
     margin-left: 890px;
 }
-.main .cards{
+.main .cards1{
     background-color: #C1C8CE;
     border: none;
 }
 .main .image img{
     width: 180px;
 }
-.main .cards article{
+.main .cards1 article{
     margin-top: 25px;
     margin-left: 15px;   
 }
@@ -229,4 +230,184 @@ margin-right: 19px;
 }
 .logo a:hover{
     color: #fff;
+}
+* {
+    box-sizing: border-box;
+  }
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .zoom {    
+    transition: transform .2s;   
+    margin: 0 auto;
+  }
+  .container {
+      width: 230px;
+      height: 10%;
+      border-radius: 5px;
+     background-color: #FAFAFB;
+     margin-top: 20px;
+     padding: 15px;
+  }
+  .nav-bar-8 {
+      background-color: #FAFAFB;
+      width: 730px;
+    display: flex;
+    height: 5%;
+   margin-top: -440px;
+   margin-left: 104px;
+   }
+   .nav-bar-8 ul li{
+    width: 180px;
+    float: left;
+    text-align: start;
+    padding: 15px 0;
+    margin-right: 7px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.nav-bar-8 ul li a{
+    color: #262626;
+    font-weight: bold;
+}
+.nav-bar-8 ul li a.active {
+    color: #2E90E5;
+    border-bottom: 3px solid #2E90E5; 
+}
+.nav-bar-8 ul li a:hover {
+    text-decoration: none;
+    color: #2E90E5;
+}
+.main0{
+    margin-top: 126px;
+    margin-left: 250px;
+}
+.main0 .des {
+    margin-left: 50px;
+}
+.cards {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 17%;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: 3px solid #F6F7F8;
+}
+.cards .title h6{
+    text-align: center;
+}
+.cards1 {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 47%;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: 3px solid #F6F7F8;
+}
+.cards1 .title h6{
+    text-align: center;
+}
+.cards button{
+    text-align: left top;
+    color: #ffffff;
+    background-color: #FF4858;
+    border: none;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-bottom: 0px;
+    padding: 0 5px 0 5px;
+}
+.image img{
+    width: 80%;
+    margin: 10px 12px 30px 17px;        
+}
+.middle .text{
+    font-size: 16px;
+    padding: 16px 32px; 
+    margin-top: 1230px;   
+    margin-left: 10px;   
+}
+.cards .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }      
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }      
+  .cards:hover .image {
+    opacity: 0.3;
+  }      
+  .cards:hover .middle {
+    opacity: 1;
+  }
+  .footer .cards{
+    display: flex;
+    margin: 10px;
+    border: none;
+}
+.footer .cards-1{
+   display: flex;
+   margin: 20px;
+   border: none;
+}
+.title1 {
+   margin: 136px 200px 0px 10px;
+   font-size: small;
+}
+.title1 h6 h2 {
+   color: #C1C8CE;
+   font-size: large;
+}
+.title1 p address {
+   color: #807d77; 
+   padding-left: 50px;           
+}
+.title1 a:hover{
+   color: #ccc;
+}
+.footer{
+   width: 650px;
+   height: 420px;
+   background-color: #FFFFFF;
+   margin-left: 230px;
+   
+}
+.footer .number{
+   display: flex;
+   justify-content: space-between;
+   margin-right: 20px;
+   margin-left: 0px;
+}
+.main3 .title1{
+    margin: 30px 70px 0px -10px;
+   
+}
+.main3 .title1 p a{
+    text-decoration: none;
+    color: #22262A;
+}
+.main3 .title1 p a:hover{
+    color: #ccc;
+}
+.navbar-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 190px;
+    margin-right: 140px;
+    margin-left: 140px;
 }

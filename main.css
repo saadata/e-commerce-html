@@ -244,7 +244,7 @@ color: #fff;
     height: 200px;
     background-position: 120px 45px;
     background-color: #C1C8CE;
-    background-image: url(./icon/50051823_540375.png);
+    background-image: url(./icon/video.png);
     background-repeat: no-repeat;
     background-size: 180px 130px;
 }
@@ -492,7 +492,7 @@ color: #fff;
     .navbar-1 {
         display: flex;
         justify-content: space-between;
-        margin-top: 990px;
+        margin-top: 820px;
         margin-right: 140px;
         margin-left: 140px;
     }
