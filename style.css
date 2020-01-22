@@ -342,6 +342,9 @@ margin-right: 19px;
     background-color: #FFFFFF;
     border: 3px solid #F6F7F8;
 }
+.cards:hover .image {
+    opacity: 0.3;
+}
 .cards .title h6{
     text-align: center;
 }

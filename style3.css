@@ -144,7 +144,6 @@ margin-right: 19px;
 .breadcrumb-item a:hover{
     text-decoration: none;
 }
-
 .column img{
     margin-top: 30px;
     position: absolute;
@@ -243,13 +242,15 @@ margin-right: 19px;
     transition: transform .2s;   
     margin: 0 auto;
   }
-  .container {
-      width: 230px;
-      height: 10%;
-      border-radius: 5px;
+  .containers {
+      width: 730px;
+      height: 10%;      
      background-color: #FAFAFB;
-     margin-top: 20px;
+     margin-left: 106px;
      padding: 15px;
+  }
+  .containers p {
+    margin-left: 20px;
   }
   .nav-bar-8 {
       background-color: #FAFAFB;
@@ -257,7 +258,8 @@ margin-right: 19px;
     display: flex;
     height: 5%;
    margin-top: -440px;
-   margin-left: 104px;
+   margin-left: 106px;
+   border-bottom: 3px solid #E5E8EA;
    }
    .nav-bar-8 ul li{
     width: 180px;
@@ -299,6 +301,9 @@ margin-right: 19px;
 .cards .title h6{
     text-align: center;
 }
+.cards1:hover .image {
+    opacity: 0.3;
+  }  
 .cards1 {
     margin-right: 30px;
     margin-bottom: 30px;
@@ -384,8 +389,7 @@ margin-right: 19px;
    width: 650px;
    height: 420px;
    background-color: #FFFFFF;
-   margin-left: 230px;
-   
+   margin-left: 230px;   
 }
 .footer .number{
    display: flex;
@@ -394,8 +398,7 @@ margin-right: 19px;
    margin-left: 0px;
 }
 .main3 .title1{
-    margin: 30px 70px 0px -10px;
-   
+    margin: 30px 70px 0px -10px;   
 }
 .main3 .title1 p a{
     text-decoration: none;
