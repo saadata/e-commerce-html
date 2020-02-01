@@ -93,6 +93,9 @@ margin-right: 19px;
     color: black;
     text-decoration: none;    
 }
+.nav-bar-9 ul li a.active{
+    color: #33a0ff;
+}
 .nav-bar-9 ul li:hover .mega-menu{
     color: black;
     visibility: visible;
@@ -129,9 +132,6 @@ margin-right: 19px;
     font-size: small;
     margin-right: 15px;
     color: #262626;
-}
-.inner-mega-menu p a.active{
-    color: #18bc9c;
 }
 .inner-mega-menu h5{
     margin: -20px 10px 10px 10px;
@@ -195,7 +195,7 @@ margin-right: 19px;
     background-color: #FFFFFF;
     border: 3px solid #F6F7F8;
 }
-.cards .title h6{
+.cards1 .title h6{
     text-align: center;
 }
 .image img{
