@@ -101,9 +101,6 @@ margin-right: 19px;
 .nav-bar-9 ul li .mega-menu p:hover{
     color: #18bc9c;
 }
-.nav-bar-9 ul li a.active{
-    color: #33A0FF;
-}
 .mega-menu{
     z-index: 1;
     position: absolute;
@@ -133,6 +130,9 @@ margin-right: 19px;
     margin-right: 15px;
     color: #262626;
 }
+.inner-mega-menu p a.active{
+    color: #18bc9c;
+}
 .inner-mega-menu h5{
     margin: -20px 10px 10px 10px;
     color: #C1C8CE;
@@ -144,15 +144,10 @@ margin-right: 19px;
 .breadcrumb-item a:hover{
     text-decoration: none;
 }
-.column img{
-    margin-top: 30px;
-    position: absolute;
-    margin-left: 283px;
-    overflow: auto;
-}
+
 .right-half {
     margin-left: 510px;
-    margin-top: -215px;
+    margin-top: -295px;
 }
 .right-half a:hover{
     text-decoration: none;
@@ -172,7 +167,7 @@ margin-right: 19px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .down {
@@ -184,11 +179,11 @@ margin-right: 19px;
     padding: 10px;
 }
 .sidebar{
-    margin-top: -286px;
-    margin-left: 890px;
+    margin-top: -406px;
+    margin-left: 950px;
 }
 .sidebar .des{
-    margin-left: 75px;
+    margin-left: 55px;
 }
 .cards {
     margin-right: 30px;
@@ -207,7 +202,7 @@ margin-right: 19px;
 }
 .main{
     margin-top: 0px;
-    margin-left: 890px;
+    margin-left: 950px;
 }
 .main .cards1{
     background-color: #C1C8CE;
@@ -222,7 +217,8 @@ margin-right: 19px;
 }
 .logo {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between; 
+    margin-top: 40px;   
 }
 .logo a{
     color: #fff;
@@ -233,20 +229,11 @@ margin-right: 19px;
 * {
     box-sizing: border-box;
   }
-.zoom:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-  }
-  .zoom {    
-    transition: transform .2s;   
-    margin: 0 auto;
-  }
   .containers {
       width: 730px;
       height: 10%;      
      background-color: #FAFAFB;
-     margin-left: 106px;
+     margin-left: 166px;
      padding: 15px;
   }
   .containers p {
@@ -257,8 +244,8 @@ margin-right: 19px;
       width: 730px;
     display: flex;
     height: 5%;
-   margin-top: -440px;
-   margin-left: 106px;
+   margin-top: -320px;
+   margin-left: 166px;
    border-bottom: 3px solid #E5E8EA;
    }
    .nav-bar-8 ul li{
@@ -304,7 +291,7 @@ margin-right: 19px;
 .cards1:hover .image {
     opacity: 0.3;
   }  
-  
+
 .cards1 {
     margin-right: 30px;
     margin-bottom: 30px;
@@ -415,3 +402,126 @@ margin-right: 19px;
     margin-right: 140px;
     margin-left: 140px;
 }
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .qty-box {
+    background-color: #F6F7F8;
+    border-radius: 3px;
+    display: block;
+    height: 45px;
+    margin: calc(5vh - 30px)  0 ;
+    width: 105px;
+  }
+  
+  .qty-box span {    
+    font-family: sans-serif;
+    float: left;
+    line-height: 45px;
+    text-align: center;
+    width: calc(105px/3);
+    -webkit-font-smoothing: antialiased;
+  }  
+  .dec,
+  .inc {
+    height: -10px;
+    font-weight: bold;
+    color: #62a8e2;
+  }
+  .qty {      
+      color: #262626;
+  }
+  .dec:hover,
+  .inc:hover {
+    cursor: pointer;
+  }
+  .qty-box1 {
+    background-color: #EAF5FF;
+    border-radius: 3px;
+    display: block;
+    height: 45px;
+    margin: calc(5vh - 30px)  0 ;
+    margin-left: 190px;
+    margin-top: -50px;
+    width: 135px;
+  }
+  .qty-box2 {
+    background-color: #EAF5FF;
+    border-radius: 3px;
+    display: block;
+    height: 45px;
+    margin: calc(5vh - 30px)  0 ;
+    margin-left: -150px;
+    margin-top: 250px;
+    width: 45px;
+  }
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    width: 650px;
+    margin-top: 40px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    margin-left: 120px;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .row {
+      margin-left: 220px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 86.75px;    
+    margin-top: 40px; 
+      
+  }
+  .column img{
+    border: 2px solid #f6f7f8;
+  }
+  .column img.active{
+      border: 2px solid #33a0f3;
+  }
+  .column img:hover{
+      border: 2px solid #33a0f3;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  

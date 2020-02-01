@@ -212,7 +212,8 @@ margin-right: 19px;
     margin-left: 35px;
     margin-top: 60px;
     color: #ffffff;
-    width: 400px;     
+    width: 400px; 
+        
 }
 .w3-container .container-1 img{
     z-index: -1;
@@ -275,7 +276,7 @@ margin-right: 19px;
     height: 235px;
     width: 200px;
     padding: 0;
-    margin-top: 250px;
+    margin-top: 385px;
     margin-left: 180px;
     position: absolute;
     overflow: auto;
@@ -303,7 +304,7 @@ margin-right: 19px;
     height: 50px;
     width: 200px;
     padding: 0;
-    margin-top: 505px;
+    margin-top: 655px;
     margin-left: 180px;
     position: absolute;
     overflow: auto;

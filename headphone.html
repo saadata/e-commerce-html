@@ -8,6 +8,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 <!-- Font Awesome Icon Library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div>
@@ -32,11 +33,11 @@
             <h2 style="color: #FF4252; font-weight: bold; text-align: center;">BOUNCER</h2>
             <nav class="nav-bar-9">
                 <ul>
-                        <li><a class="active" href="./index.html">HOME</a>
+                        <li><a href="./index.html">HOME</a>
                         <div class="mega-menu">
                             <div class="inner-mega-menu">
                                 <h5>Category</h5>
-                                <p>Airport&Wireless</p>
+                                <p><a class="active" href="#">Airport&Wireless</p>
                                 <p>AppleCare</p>
                                 <p>Bags,Shells&Sleeves</p>
                                 <p>Bussiness&Security</p>
@@ -44,7 +45,7 @@
                             </div>
                             <div class="inner-mega-menu">
                                 <p>Cameras&Video</p>
-                                <p>Car&Travel</p>
+                                <p><a href="./widget.html">Car&Travel</a></p>
                                 <p>Cases&Films</p>                    
                             </div>
                             <div class="inner-mega-menu">
@@ -81,13 +82,42 @@
             </ol>
           </nav>         
             <div class="left-half">
-                <img src="./icon/headphone.png" style="width: 20%; margin-top: 20px; margin-left: 203px;">
-                <div class="column">
-                     <div class="zoom"><img src="./my/h2.png" style="margin-left: 185px; border: 1px solid #E5E8EA" width="63px" height="63px"></div>
-                     <div class="zoom"><img src="./my/h3.png" style="margin-left: 259px; border: 1px solid #E5E8EA" width="63px" height="63px"></div>
-                     <div class="zoom"><img src="./my/Rectangle 5.png" style="margin-left: 333px; border: 1px solid #006CFF" width="63px" height="63px"></div>
-                     <div class="zoom"><img src="./my/h4.png" style="margin-left: 405px; border: 1px solid #E5E8EA" width="63px" height="63px"></div>
-                </div>
+                <div class="container">
+                    <div class="mySlides">
+                      <div class="numbertext"></div>
+                      <img src="./my/h2.png" style="width:20%">
+                    </div>
+                  
+                    <div class="mySlides">
+                      <div class="numbertext"></div>
+                      <img src="./my/h3.png" style="width:20%">
+                    </div>
+                  
+                    <div class="mySlides">
+                      <div class="numbertext"></div>
+                      <img src="./site/Rectangle 5.png" style="width:20%">
+                    </div>
+                      
+                    <div class="mySlides">
+                      <div class="numbertext"></div>
+                      <img src="./my/h4.png" style="width:20%">
+                    </div>
+                   
+                    <div class="row">
+                      <div class="column">
+                        <img class="demo cursor" src="./my/h2.png" style="width:80%" onclick="currentSlide(1)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="./my/h3.png" style="width:80%" onclick="currentSlide(2)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor active" src="./my/Rectangle 5.png" style="width:80%" onclick="currentSlide(3)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="./my/h4.png" style="width:80%" onclick="currentSlide(4)">
+                      </div>                      
+                    </div>
+                  </div>
             </div>
             <div class="right-half">
                 <h5>Beats Solo2 On Ear Headphones - Black</h5>
@@ -110,12 +140,30 @@
             <p style="font-size: small; font-weight: bold;">Size
             <a href="" class="down">XS<span style="margin-left: 65px;"><img src="./icon/arrow down.png"></span></a>
             </p><br>
-            <div class="logo">
-                <a style="width: 150px; height: 30px; background-color: #385C8E;" href="https://www.facebook.com/"><img src="./icon/facebook.png">Share on Facebook</a>
-                <a style="width: 150px; height: 30px; margin-right: 490px; background-color: #03A9F4;" href="https://twitter.com/"><img src="./icon/twitter.png">Share on Twitter</a>
+            <div class="left">
+            <div class="qty-box" data-reactid=".0">
+                <span class="dec" data-reactid=".0.0">-</span>
+                <span class="qty" data-reactid=".0.1">2</span>
+                <span class="inc" data-reactid=".0.2">+</span>
             </div>
         </div>
-       
+        <div class="right">
+            <div class="left-half">
+            <div class="qty-box1">               
+                 <span><img src="./site/cart.png" style="margin-top: 15px; margin-left: 14px;"><span style="font-weight: bold; margin-left: 15px; font-size: 13px; color: #33A0FF">Add To Cart</span></span>                     
+            </div>
+        </div>
+        <div class="right-half">
+            <div class="qty-box2">
+                <span><img src="./site/hearts.png" style="margin-top: 15px; margin-left: 14px;"></span>
+            </div>
+        </div>
+        </div>
+            <div class="logo">
+                <a style="width: 150px; height: 30px; background-color: #385C8E;" href="https://www.facebook.com/"><img src="./icon/facebook.png">Share on Facebook</a>
+                <a style="width: 150px; height: 30px; margin-right: 460px; background-color: #03A9F4;" href="https://twitter.com/"><img src="./icon/twitter.png">Share on Twitter</a>
+            </div>
+        </div>       
           <div class="sidebar">
               <h4 style="color: #C1C8CE;">BEST SELLER</h4><br>
           <div class="cards1">                           
@@ -303,5 +351,60 @@
   <p style="color: #F6F7F8;">&copy;2018 Ecommerce theme by www.bisenbaev.com</p>
   <p><img src="./icon/Brands.png"></p>
 </div>
+<script>
+    var QuantityBox = React.createClass({ displayName: "QuantityBox",
+     getInitialState: function () {
+       return { value: 1 };
+     },
+     onDecrement: function (e) {
+       if (this.state.value <= 0) return;
+       this.setState({ value: --this.state.value });
+     },
+     onIncrement: function (e) {
+       this.setState({ value: ++this.state.value });
+     },
+     render: function () {
+       return (
+         React.createElement("div", { className: "qty-box" },
+         React.createElement("span", { className: "dec", onClick: this.onDecrement, onTouchStart: this.onDecrement }, "\u2013"),
+         React.createElement("span", { className: "qty" }, this.state.value),
+         React.createElement("span", { className: "inc", onClick: this.onIncrement, onTouchStart: this.onIncrement }, "+")));
+   
+   
+     } });
+   
+   
+   React.render(React.createElement(QuantityBox, null), document.body);
+    </script>
+    <script>
+        var slideIndex = 3;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
     </body>
 </html>
