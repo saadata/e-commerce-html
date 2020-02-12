@@ -144,15 +144,71 @@ margin-right: 19px;
 .breadcrumb-item a:hover{
     text-decoration: none;
 }
+.thumb img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 800px; /* Set a small width */
+    margin-left: 300px;
+    margin-top: 30px;
+  }
+  
+  /* Add a hover effect (blue shadow) */
+  .thumb img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  .sidebar{
+      width: 230px;
+      height: 210px;
+      background-image: url(./site/img11.png);
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-left: 865px;
+      padding-top: 140px;
+      padding-left: 20px;
+  }
+  .sidebar small{
+     color: whitesmoke;
+     font-weight: bold;
+  }
+  .sidebar1{
+    width: 230px;
+    height: 210px;
+    background-image: url(./site/img12.png);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 865px;
+    padding-top: 140px;
+    padding-left: 20px;
+}
+.sidebar1 small{
+   color: whitesmoke;
+   font-weight: bold;
+}
+.sidebar2{
+    width: 230px;
+    height: 210px;
+    background-image: url(./site/img.png);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 865px;
+    padding-top: 140px;
+    padding-left: 20px;
+}
+.sidebar2 small{
+   color: whitesmoke;
+   font-weight: bold;
+}
 .widget{
-    margin-left: 240px;
-    margin-top: 60px;
-    margin-right: 910px;    
+    margin-left: 865px;
+    margin-top: 10px;
+    margin-right: 290px;    
 }
 .widget h5{
     color: #C1C8CE;
     font-weight: bold;
-    margin-bottom: 40px;   
+    margin-bottom: 20px; 
+    margin-top: 20px;
 }
 
 .tags a{
@@ -168,8 +224,9 @@ margin-right: 19px;
     color: #C1C8CE;
 }
 .main{
-    margin-top: 90px;
-    margin-left: 240px;
+    margin-top: 30px;
+    margin-left: 865px;
+    margin-right: 260px;
 }
 .main .cards1{
     background-color: #C1C8CE;
@@ -178,95 +235,24 @@ margin-right: 19px;
 .main .image img{
     width: 180px;
 }
-.main .cards1 article{
-    margin-top: 25px;
+.main .cards1 article{   
     margin-left: 15px;   
 }
-.sidebar{
-    margin-top: 20px;
-    margin-left: 240px;
+.container .comment{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 30px;
 }
-.sidebar .des{
-    margin-left: 55px;
-}
-.cards1 {
-    margin-right: 30px;
-    margin-bottom: 30px;
-    width: 20%;
-    display: inline-block;
-    background-color: #FFFFFF;
-    border: 3px solid #F6F7F8;
-}
-.cards1 .title h6{
-    text-align: center;
-}
-.image img{
-    width: 80%;
-    margin: 10px 12px 30px 17px;        
-}
-.des .number del{
-    color: #C1C8CE;
-}
-.des .number p{
-    color: #FF4858;
-}
-.number{
-    display: flex;  
-}
-.thumbnail{
-    margin-left: 490px;
-    margin-top: -1050px;
-}
-.thumbnail1{
-    margin-left: 490px;
-    margin-top: 20px;
-}
-.thumbnail2{
-    margin-left: 490px;
-    margin-top: 20px;
-}
-.thumbnail3{
-    margin-left: 490px;
-    margin-top: 20px;
-}
-.thumbnail4{
-    margin-left: 490px;
-    margin-top: 20px;
-}
-.thumb img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 300px;
-    margin-left: 20px;
-  }  
-  .thumb img:hover {
+.thumb1 img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 500px; /* Set a small width */
+    margin-left: 180px;
+    margin-top: 30px;
+  }
+  
+  /* Add a hover effect (blue shadow) */
+  .thumb1 img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
-  .thumb {
-      position: relative;
-      text-align: center;
-      color: white;
-      width: 650px;
-  }
- 
-    .bottom-left{
-      position: absolute;
-      bottom: 13px;
-      left: 40px;
-      right: 340px;
-      font-size: small;
-     
-  }
-  .bottom-right{
-    position: absolute;
-    bottom: 13px;
-    left: 360px;
-    right: 20px;
-    font-size: small;
-}
-  .page-item .page-link {
-    border: none;
-    color: black;
-    background-color: #FAFAFB;
-}
