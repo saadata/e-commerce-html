@@ -56,6 +56,11 @@ margin-right: 19px;
     .navbar-right ul li a img{
         padding-bottom: 5px;
     }
+    .btn {
+        background: none;
+        color: #262626;
+        margin-top: -5px;
+    }
     @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 .nav-bar-9{
     width: 100%;
@@ -103,6 +108,9 @@ margin-right: 19px;
 }
 .nav-bar-9 ul li .mega-menu p:hover{
     color: #18bc9c;
+}
+.nav-bar-9 ul li a.active{
+    color: #33A0FF;
 }
 .mega-menu{
     z-index: 1;
@@ -170,6 +178,7 @@ margin-right: 19px;
   .sidebar small{
      color: whitesmoke;
      font-weight: bold;
+     text-align: justify;
   }
   .sidebar1{
     width: 230px;
@@ -184,6 +193,7 @@ margin-right: 19px;
 .sidebar1 small{
    color: whitesmoke;
    font-weight: bold;
+   text-align: justify;
 }
 .sidebar2{
     width: 230px;
@@ -198,6 +208,7 @@ margin-right: 19px;
 .sidebar2 small{
    color: whitesmoke;
    font-weight: bold;
+   text-align: justify;
 }
 .widget{
     margin-left: 865px;
@@ -236,7 +247,8 @@ margin-right: 19px;
     width: 180px;
 }
 .main .cards1 article{   
-    margin-left: 15px;   
+    margin-left: 15px;
+    padding-top: 10px;   
 }
 .container .comment{
     display: flex;

@@ -6,6 +6,7 @@ body{
  display: flex;
  height: 5%;
  border-bottom: 3px solid #FAFAFB;
+ margin-bottom: 5px;
 }
 .navbar-left {
     flex-basis: 50%;
@@ -55,6 +56,11 @@ color: black;
 }
 .navbar-right ul li a img{
     padding-bottom: 5px;
+}
+.btn {
+    background: none;
+    color: #262626;
+    margin-top: -5px;
 }
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 .nav-bar-9{
@@ -121,8 +127,7 @@ color: black;
 .inner-mega-menu{
     width: 24%;
     float: left;
-    margin-right: 0%;
-    
+    margin-right: 0%;    
 }
 .inner-mega-menu:last-child{
     margin-right: 0%;
@@ -182,7 +187,7 @@ justify-content: center;
 .container-2 img {   
 height: 352px;
 margin-left: 408px;
-margin-top: -325px;
+margin-top: -329px;
 border-radius: 5px;   
 }
 .container-2 article{
@@ -386,7 +391,7 @@ color: #fff;
         z-index: -1;
         height: 470px;
         margin-left: 810px;
-        margin-top: -387px;
+        margin-top: -388px;
     }
     .content article{
         margin-left: 210px;
@@ -402,11 +407,20 @@ color: #fff;
     .card-b1 article img{
         margin-left: 100px;
     }
+    .card-b1 article{
+        text-align: justify;
+    }
     .card-b2 article img{
         margin-left: 100px;
     }
+    .card-b2 article{
+        text-align: justify;
+    }
     .card-b3 article img{
         margin-left: 100px;
+    }
+    .card-b3 article{
+        text-align: justify;
     }
     .card-img{
         height: 166px;        
@@ -450,6 +464,7 @@ color: #fff;
     .title1 {
         margin: 136px 200px 0px 10px;
         font-size: small;
+        text-align: justify;
     }
     .title1 h6 h2 {
         color: #C1C8CE;
@@ -457,7 +472,8 @@ color: #fff;
     }
     .title1 p address {
         color: #807d77; 
-        padding-left: 50px;           
+        padding-left: 50px; 
+                 
     }
     .title1 a:hover{
         color: #ccc;

@@ -57,6 +57,11 @@ margin-right: 19px;
         padding-bottom: 5px;
     }
     @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+    .btn {
+        background: none;
+        color: #262626;
+        margin-top: -5px;
+    }
 .nav-bar-9{
     width: 100%;
     background: #fff;            
@@ -100,6 +105,9 @@ margin-right: 19px;
 }
 .nav-bar-9 ul li .mega-menu p:hover{
     color: #18bc9c;
+}
+.nav-bar-9 ul li a.active{
+    color: #33A0FF;
 }
 .mega-menu{
     z-index: 1;
@@ -221,7 +229,15 @@ margin-right: 19px;
     margin-top: 40px;   
 }
 .logo a{
+    width: 150px;
+    height: 30px;
     color: #fff;
+    font-size: small;
+    padding: 5px;
+}
+.logo img{
+    margin-left: 8px;
+    
 }
 .logo a:hover{
     color: #fff;
@@ -238,6 +254,7 @@ margin-right: 19px;
   }
   .containers p {
     margin-left: 20px;
+    text-align: justify;
   }
   .nav-bar-8 {
       background-color: #FAFAFB;
@@ -361,6 +378,7 @@ margin-right: 19px;
 .title1 {
    margin: 136px 200px 0px 10px;
    font-size: small;
+   text-align: justify;
 }
 .title1 h6 h2 {
    color: #C1C8CE;
@@ -449,6 +467,16 @@ margin-right: 19px;
     margin-left: 190px;
     margin-top: -50px;
     width: 135px;
+  }
+  .qty-box1 img{
+    margin-top: 15px; 
+    margin-left: 14px;
+  }
+  .qty-box1 span span{
+    font-weight: bold;
+     margin-left: 15px; 
+     font-size: 13px;
+      color: #33A0FF
   }
   .qty-box2 {
     background-color: #EAF5FF;
